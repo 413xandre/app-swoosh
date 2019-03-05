@@ -8,18 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //I am commenting this out, because we are going to use the Apple recommended way: Auto layout
-//        swoosh.frame = CGRect(x: view.frame.size.width / 2 - swoosh.frame.size.width / 2, y: 50, width: swoosh.frame.size.width, height: swoosh.frame.size.height)
-//
-//        bgImg.frame = view.frame;
-    }
 
     @IBAction func unwindFromSkillVC(UnwindSegue: UIStoryboardSegue) {
     
