@@ -10,6 +10,6 @@ import Foundation
 
 struct Player {
     //struct is value type which can be copied. They are much faster than classes
-    var desiredLeague: String?
-    var selectedSkillLevel: String?
+    var desiredLeague: String!
+    var selectedSkillLevel: String!
 }
